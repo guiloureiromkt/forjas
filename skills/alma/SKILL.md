@@ -12,7 +12,7 @@ Skill que conduz, por perguntas, a documentação do **Brand System completo** d
 
 A pasta do pacote é `${CLAUDE_PLUGIN_ROOT}`. Todo caminho `<pasta do pacote>/...` nos arquivos de apoio é relativo a ela. Leia agora e siga, nesta ordem:
 1. `${CLAUDE_PLUGIN_ROOT}/skills/_comum/abertura.md` (o que dizer na primeira mensagem; o tempo da Alma é de 3 a 5 horas, em 1 a 3 sessões);
-2. `${CLAUDE_PLUGIN_ROOT}/skills/_comum/retomada.md` (se já existe progresso salvo, oferecer continuar; **aqui o estado é gravado depois de cada estação**);
+2. `${CLAUDE_PLUGIN_ROOT}/skills/_comum/retomada.md` (se já existe progresso salvo, oferecer continuar; **aqui o estado é gravado depois de cada resposta, inclusive no meio de uma estação**, com a estação e a pergunta em que a conversa está);
 3. `${CLAUDE_PLUGIN_ROOT}/skills/_comum/master-brief.md` (onde fica o Master Brief e como escrever nele);
 4. `${CLAUDE_PLUGIN_ROOT}/skills/_comum/pasta-marca.md` (onde gravar os 7 arquivos).
 

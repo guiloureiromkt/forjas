@@ -5,7 +5,8 @@ As Forjas são conversas longas (a Alma leva de 1 a 3 sessões). Ninguém deve p
 ## Gravar
 - O estado de cada Forja fica em `marca/forja-estado-<forja>.json` (`<forja>` = `alma`, `estrategia`, `campo-de-batalha` ou `expressa`).
 - Siga o esquema de `${CLAUDE_PLUGIN_ROOT}/skills/estrategia/references/state-json-schema.md`, acrescentando no topo: `"forja"`, `"marca"` (o nome da marca), `"versao_pacote"` e `"etapa_atual"` (estação ou modo em que a conversa está).
-- Grave depois de **cada** resposta aceita, não só no fim.
+- Grave depois de **cada** resposta, não só no fim de uma etapa: a pessoa pode fechar a janela no meio de qualquer pergunta. Grave também a pergunta em que a conversa parou.
+- Se a marca ainda não tem nome, grave com `"marca": "(ainda sem nome)"` e atualize quando ele aparecer.
 
 ## Retomar
 Ao abrir, antes de se apresentar de novo, procure o estado desta Forja na pasta `marca/` da marca em uso, **pelo nome exato do arquivo** (por exemplo, leia `marca/forja-estado-alma.json` direto ou rode `ls -a marca/`). Não dependa só de uma busca por padrão: ela pode pular arquivos.
