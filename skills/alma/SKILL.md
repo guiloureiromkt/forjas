@@ -97,7 +97,7 @@ Contrato completo + consumidores downstream + regras (standalone · frontmatter 
 
 ### Estações 10 e 11 · compilar e validar (com ou sem Python)
 Antes de compilar, confira em silêncio: `python3 -c "import yaml, jinja2"`.
-- **Funcionou:** grave os dados da marca em `marca/<slug>-input.yaml`, no formato de `references/exemplo-input.yaml` (um exemplo inventado; os campos de design e de público vêm das Estações 5B e 0/2B) e rode `python3 ${CLAUDE_PLUGIN_ROOT}/skills/alma/scripts/compile_canon.py marca/<slug>-input.yaml marca/`. Depois, para validar: `python3 ${CLAUDE_PLUGIN_ROOT}/skills/alma/scripts/validate_canon.py marca/`.
+- **Funcionou:** grave os dados da marca em `marca/<slug>-input.yaml`, no formato de `references/exemplo-input.yaml` (um exemplo inventado; `session.data` é a data de hoje; os campos de design e de público vêm das Estações 5B e 0/2B) e rode `python3 ${CLAUDE_PLUGIN_ROOT}/skills/alma/scripts/compile_canon.py marca/<slug>-input.yaml marca/`. Depois, para validar: `python3 ${CLAUDE_PLUGIN_ROOT}/skills/alma/scripts/validate_canon.py marca/`.
 - **Não funcionou** (sem Python, ou sem as bibliotecas): não peça para a pessoa instalar nada. Escreva os 7 arquivos você mesmo, seguindo os modelos de `references/` (`brand-template.md`, `voice-template.md`, `loops-template.md` e os `*-render.md`), e faça a validação aplicando `references/anti-slop-rules.md` arquivo por arquivo. Diga numa frase que foi assim.
 - Se o validador reprovar um arquivo porque um campo ficou com o texto padrão "(definir …)", volte à estação que responde aquele campo; não invente.
 - Nunca use `scripts/run.py`: ele cria uma pasta de instalação dentro do pacote.

@@ -520,7 +520,7 @@ Path canon: <path>
 | forja-plano.md | ~N palavras | ✅ salvo |
 | forja-diagnostico.md | ~N palavras | ✅ salvo |
 | forja-educacao.md | ~N palavras | ✅ salvo |
-| forja-state.json | estado completo | ✅ salvo |
+| marca/forja-estado-estrategia.json | estado completo | ✅ salvo |
 ```
 
 **2. Resumo executivo da entrega** (= "o grande movimento desta Forja" em 1 parágrafo + lista de 5-10 descobertas canon HOJE + cicatrizes strategist novas)

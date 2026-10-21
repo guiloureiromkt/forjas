@@ -1,4 +1,4 @@
-# Schema do `.forja-state-<slug>.json`
+# Schema do `forja-estado-<forja>.json`
 
 > **Ler QUANDO:** for iniciar o Passo 1 (Modo Entrevista) e precisar criar/atualizar o state.json — ou no Modo 0.6 pra saber quais campos reutilizar. Salvar incrementalmente após CADA resposta da entrevista (não só no fim).
 

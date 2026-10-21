@@ -8,7 +8,7 @@ Uma Forja descobre coisas que mudam a marca: a voz, o público, o que se diz e o
 ### 1 · Ler o que já existe antes de perguntar
 Antes da primeira pergunta, leia:
 1. o Master Brief (conforme `master-brief.md`);
-2. os arquivos de Forjas anteriores na pasta `marca/` e os estados `.forja-state-*.json`;
+2. os arquivos de Forjas anteriores na pasta `marca/` e os estados `forja-estado-*.json`;
 3. o que a pessoa apontar como material da marca (site, documentos, bio, propostas);
 4. se a pasta aberta tem um `CLAUDE.md`, as instruções dele sobre onde a marca vive.
 

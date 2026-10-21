@@ -1,6 +1,6 @@
 # Continuidade entre sessões · Modo 0.5 + Modo 0.6
 
-> **Ler QUANDO:** no início de qualquer sessão, se o glob de Forjas anteriores encontrar ≥1 `forja-state.json` (Modo 0.5) — e sempre que o usuário escolher rodar uma 2ª+ Forja na mesma empresa (Modo 0.6). Se nenhuma Forja anterior existe, este arquivo não é necessário: vá direto ao Passo 0 (Setup).
+> **Ler QUANDO:** no início de qualquer sessão, se o glob de Forjas anteriores encontrar `marca/forja-estado-estrategia.json` (Modo 0.5) — e sempre que o usuário escolher rodar uma 2ª+ Forja na mesma empresa (Modo 0.6). Se nenhuma Forja anterior existe, este arquivo não é necessário: vá direto ao Passo 0 (Setup).
 
 ---
 
@@ -8,7 +8,7 @@
 
 **Quando ativar:** ao iniciar qualquer sessão, fazer 2 buscas:
 
-1. Procurar `marca/.forja-state-estrategia.json` e os arquivos `forja-plano-*`, `forja-diagnostico-*` e `forja-educacao-*` na pasta `marca/` da marca em uso (ver `${CLAUDE_PLUGIN_ROOT}/skills/_comum/pasta-marca.md` e `${CLAUDE_PLUGIN_ROOT}/skills/_comum/retomada.md`)
+1. Procurar `marca/forja-estado-estrategia.json` e os arquivos `forja-plano-*`, `forja-diagnostico-*` e `forja-educacao-*` na pasta `marca/` da marca em uso (ver `${CLAUDE_PLUGIN_ROOT}/skills/_comum/pasta-marca.md` e `${CLAUDE_PLUGIN_ROOT}/skills/_comum/retomada.md`)
 2. Se encontrou ≥1 state.json, identificar qual sessão é relevante pro contexto atual (= mesma empresa? mesma disciplina? data mais recente?)
 
 **🆕 V1.5 · LEITURA OBRIGATÓRIA DE 4 ARQUIVOS (= cicatriz #6 captura)**
@@ -20,7 +20,7 @@ marca/
   ├── forja-plano-<slug>-<disciplina>-<data>.md       (= riqueza executiva · marcos · cadência)
   ├── forja-diagnostico-<slug>-<disciplina>-<data>.md (= descobertas + cicatrizes + chunks)
   ├── forja-educacao-<slug>-<disciplina>-<data>.md    (= conceitos + frameworks operacionais)
-  └── .forja-state-estrategia.json                    (= resumo estruturado)
+  └── forja-estado-estrategia.json                    (= resumo estruturado)
 ```
 
 **Anti-padrão V1.4 (cicatriz #6, 2026-05-23):** ler só o estado salvo da Forja anterior perde tudo o que formou aquela Forja; carregar todos os arquivos dela.

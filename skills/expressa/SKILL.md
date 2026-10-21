@@ -77,7 +77,7 @@ Junto com isso, os itens de `_comum/abertura.md`: versão, tempo (de 45 a 90 min
 2. Preencher os campos do checklist — **Bloco A** (negócio & estratégia · 13 campos da entrevista 12+1) e **Bloco B** (varredura de canais · comprime o briefing 7-campos).
 3. Cada campo extraído carrega **citação literal + arquivo de origem** (mesma disciplina da Hard Rule #1 da Estratégia — sem citação, o campo conta como gap).
 4. Canal público (LinkedIn · blog · IG · YouTube · site) se **audita olhando de verdade**, não se pergunta: abrir o canal, registrar cadência real e última publicação.
-5. Salvar o progresso em `marca/.forja-state-expressa.json` a cada campo preenchido, como diz `${CLAUDE_PLUGIN_ROOT}/skills/_comum/retomada.md` (esquema: `${CLAUDE_PLUGIN_ROOT}/skills/estrategia/references/state-json-schema.md` · acrescentar `"modo": "expressa"` e `fonte` por resposta).
+5. Salvar o progresso em `marca/forja-estado-expressa.json` a cada campo preenchido, como diz `${CLAUDE_PLUGIN_ROOT}/skills/_comum/retomada.md` (esquema: `${CLAUDE_PLUGIN_ROOT}/skills/estrategia/references/state-json-schema.md` · acrescentar `"modo": "expressa"` e `fonte` por resposta).
 
 ### Modo 1.2 · Gap-check em lote + PORTÃO DE BASE (5 min)
 

@@ -83,7 +83,7 @@ O QUE EU ENTREGO (saídas concretas)
 ▸ forja-plano-<empresa>-<disciplina>-<data>.md · 2.500-4.000 palavras · executivo
 ▸ forja-diagnostico-<empresa>-<disciplina>-<data>.md · 2.500-4.000 palavras · cru
 ▸ forja-educacao-<empresa>-<disciplina>-<data>.md · 3.000-5.000 palavras · pro time
-▸ marca/.forja-state-estrategia.json · o progresso salvo, pra retomar e pra revisão futura
+▸ marca/forja-estado-estrategia.json · o progresso salvo, pra retomar e pra revisão futura
 ▸ Scorecard de 10 dimensões + Estágio de Maturidade da Marca (Frágil/Confusa/Madura/Sólida)
 ▸ Cada item segue padrão O QUE · POR QUE · O QUE FAZER · não-listicle
 
@@ -155,13 +155,13 @@ Não negocia. Não cede a "só me dá um modelo". Sem realidade da empresa · se
 **Modo 0.5 → (0.6) → Passo 0 → Modo 1 → Modo 1.5 → Modo 2 → aprovação → Modo 3 → Closure → Modo 6.**
 
 ### Modo 0.5 · Orientação Inicial + Modo 0.6 · Cross-Forja
-Ao iniciar QUALQUER sessão: procurar `marca/.forja-state-estrategia.json` e os arquivos `forja-plano-*`, `forja-diagnostico-*` e `forja-educacao-*` na pasta `marca/` (`${CLAUDE_PLUGIN_ROOT}/skills/_comum/retomada.md`). Se achou Forja anterior → **ler `references/continuidade-cross-forja.md`** e seguir o procedimento (ler os 4 arquivos canon · não só state.json — cicatriz #6 · briefing de retomada A/B/C). 2ª+ Forja na mesma empresa = Modo 0.6 (entrevista enxuta 4-8 perguntas). Se nada existe → Passo 0 direto.
+Ao iniciar QUALQUER sessão: procurar `marca/forja-estado-estrategia.json` e os arquivos `forja-plano-*`, `forja-diagnostico-*` e `forja-educacao-*` na pasta `marca/` (`${CLAUDE_PLUGIN_ROOT}/skills/_comum/retomada.md`). Se achou Forja anterior → **ler `references/continuidade-cross-forja.md`** e seguir o procedimento (ler os 4 arquivos canon · não só state.json — cicatriz #6 · briefing de retomada A/B/C). 2ª+ Forja na mesma empresa = Modo 0.6 (entrevista enxuta 4-8 perguntas). Se nada existe → Passo 0 direto.
 
 ### Passo 0 · Setup (1-2 min)
 Perguntar: (1) **disciplina** — Comunicação Integrada (default · embarcada) · Estratégia & Posicionamento · Growth & Performance · Sistemas de Marca · Dados & Inteligência · IA & MarTech · Experiência & Ativação · Cultura & Ciclos; (2) se ≠ CI → usuário fornece Índice Estratégico próprio (→ `references/quando-usuario-traz-biblioteca-propria.md`); (3) **já tem a Alma da marca?** Se sim · colar (enriquece o diagnóstico) · se não · seguir sem.
 
 ### Modo 1 · Entrevista (10-15 min · maiêutico)
-Ler `references/12-estacoes-entrevista.md` (12+1 perguntas). **UMA pergunta por vez** · aguarda resposta · confirma em 1 frase · próxima. Resposta vaga → refrasear pedindo dado concreto (empresa + número + data); resistiu 2× → seguir e marcar `dado_ancorado: false`. Salvar o progresso após CADA resposta em `marca/.forja-state-estrategia.json` (esquema: `references/state-json-schema.md`).
+Ler `references/12-estacoes-entrevista.md` (12+1 perguntas). **UMA pergunta por vez** · aguarda resposta · confirma em 1 frase · próxima. Resposta vaga → refrasear pedindo dado concreto (empresa + número + data); resistiu 2× → seguir e marcar `dado_ancorado: false`. Salvar o progresso após CADA resposta em `marca/forja-estado-estrategia.json` (esquema: `references/state-json-schema.md`).
 
 ### Modo 1.5 · Pesquisa Externa (3-8 min · anti eco-câmara)
 Validar/contestar premissas ANTES do diagnóstico: concorrentes nomeados (o que de fato fazem) · tendências do setor · cases últimos 18 meses · dores reais documentadas do público. **Ordem de execução:**
@@ -177,7 +177,7 @@ Cruzar as respostas com o material de referência: frameworks aplicáveis (ex: P
 Antes de gerar os .md · mostrar o resumo executivo (template em `references/output-templates.md §Passo 3`) e **aguardar OK do usuário**.
 
 ### Modo 3 / Passo 4 · Entrega (5-10 min · evolutivo)
-Gerar os 3 documentos pelos templates de `references/output-templates.md` e **SALVAR de verdade no disco** (não simular) + persistir o progresso em `marca/.forja-state-estrategia.json`.
+Gerar os 3 documentos pelos templates de `references/output-templates.md` e **SALVAR de verdade no disco** (não simular) + persistir o progresso em `marca/forja-estado-estrategia.json`.
 
 **Destino:** a pasta `marca/`, como diz `${CLAUDE_PLUGIN_ROOT}/skills/_comum/pasta-marca.md`: `marca/forja-plano-<slug>-<disciplina>-<AAAA-MM-DD>.md` · `marca/forja-diagnostico-...` · `marca/forja-educacao-...`. É onde o Modo 0.5 procura Forjas anteriores; salvar fora quebra a continuidade.
 Cada doc: cita empresa por nome · ancora em estatística/case do material (não opinião) · marca fontes · próximos passos concretos · padrão O QUE · POR QUE · O QUE FAZER.
@@ -232,7 +232,7 @@ Usuário sai com 3 .md salvos + state.json e a sensação de "diagnóstico que m
 |---|---|
 | `references/continuidade-cross-forja.md` | Início de sessão com Forja anterior detectada (Modo 0.5/0.6) |
 | `references/12-estacoes-entrevista.md` | Modo 1 · conduzir as 12+1 perguntas |
-| `references/state-json-schema.md` | Modo 1 · criar/atualizar o `.forja-state.json` |
+| `references/state-json-schema.md` | Modo 1 · criar/atualizar o `forja-estado-estrategia.json` |
 | `references/hard-rules-precisao.md` | Modo 2 · antes de emitir cada chunk (fact-check) + texto completo das rules #1-13 |
 | `references/comunicacao-integrada-planning.md` | Disciplina = Comunicação Integrada · Modo 2 e Plano |
 | `references/linguagem-e-tom.md` | Escrever qualquer saída user-facing (chunks + docs) |
