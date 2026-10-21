@@ -1,6 +1,6 @@
 ---
 name: alma
-version: 2.1.0 (pacote forjas v0.1.0)
+version: 2.1.0
 description: Construtor-Mentor foundational da Forja · constrói o Cânone autoral (voz, princípios não-negociáveis, decisões pré-programadas, repertório vivido, inimigos, tese central) de creator, profissional autônomo ou empresa B2B. Use SEMPRE que o usuário quiser documentar marca pessoal/empresarial, definir voz canônica, construir manual de marca anti-IA-cliché, ou qualquer variação de "quero construir meu canon", "fazer minha forja", "definir minha marca", "manual de marca", "voz da marca", "forja da alma", "brand system", "canon da marca". Primeira Forja do pacote forjas, base de todas as outras. 12 estações conduzidas por perguntas. Modo Creator (pessoa física) por padrão; modo Brand B2B (empresa) com pesquisa profunda.
 ---
 
@@ -68,13 +68,13 @@ Se um desses arquivos não puder ser lido, pare e diga qual faltou. Não siga de
 
 Adicionadas depois que uma Forja gravou descobertas numa pasta e não as levou para onde a marca é usada · protocolo em `${CLAUDE_PLUGIN_ROOT}/skills/_comum/propagacao.md`:
 
-- **HR#9 · Obrigação de propagar** — Forja DEVE ler o que já existe (o Master Brief, a pasta `marca/`, o material que a pessoa apontar) **E** gerar o arquivo `marca/<marca>-propagation.md` (matriz descoberta × arquivo destino · plano P0/P1/P2/P3 · checklist pós-Forja). Skill que termina sem esse arquivo está INCOMPLETA.
+- **HR#9 · Obrigação de propagar** — Forja DEVE ler o que já existe (o Master Brief, a pasta `marca/`, o material que a pessoa apontar) **E** gerar o arquivo `marca/<marca>-propagacao-alma.md` (matriz descoberta × arquivo destino · plano P0/P1/P2/P3 · checklist pós-Forja). Skill que termina sem esse arquivo está INCOMPLETA.
 - **HR#10 · Foundational Cascade** — **Forja da Alma é FOUNDATIONAL.** Suas descobertas (UVP · arquétipos · tese · anti-claims · princípios · ICP · voz · inimigos) DEVEM ser carregadas como input por TODAS as Forjas posteriores via Modo 0.5 estendido. Forjas posteriores NUNCA podem criar canon de identidade/voz/inimigos em paralelo — só consomem e estendem. Esta skill (Alma) opera como **NÓ-RAIZ do grafo cumulativo de Forjas** · não como ilha paralela.
 - **HR#11 · Output Sink No More** — Forja não é skill de "produzir N .md no disco". Forja é skill de "propagar N descobertas canon pelo ecossistema". Ao terminar Estação 11 · disparar AUTOMATICAMENTE **Estação 12 · Propagação Canon** (não-opcional). **Forja só é considerada COMPLETA quando propagação aconteceu.**
 
 ## 📋 Estação 12 · Propagação Canon (portão final · não-opcional)
 
-Após o Validador anti-Slop aprovar (Estação 11): gerar `marca/<marca>-propagation.md` → apresentar matriz + plano ao usuário → executar propagação agora OU registrar a pendência na §6 do Master Brief. **A Forja não é marcada como completa sem isso.**
+Após o Validador anti-Slop aprovar (Estação 11): gerar `marca/<marca>-propagacao-alma.md` → apresentar matriz + plano ao usuário → executar propagação agora OU registrar a pendência na §6 do Master Brief. **A Forja não é marcada como completa sem isso.**
 
 **Detalhe operacional (sub-passos 12.1-12.4): `references/propagacao-canon.md`**, junto com `${CLAUDE_PLUGIN_ROOT}/skills/_comum/propagacao.md` — ler SEMPRE que chegar aqui.
 
@@ -86,7 +86,7 @@ Após o Validador anti-Slop aprovar (Estação 11): gerar `marca/<marca>-propaga
 4. `<marca>-inimigos.md` — inimigos nomeados · renegado · posicionamento (standalone)
 5. `<marca>-publico.md` — ICP · dores · tensões · jornada (vem do Master Brief §5.3)
 6. `<marca>-feedback-loops.md` — sistema vivo
-7. `<marca>-propagation.md` — matriz de propagação
+7. `<marca>-propagacao-alma.md` — matriz de propagação
 
 Contrato completo + consumidores downstream + regras (standalone · frontmatter · níveis de confiança): `references/brand-system-contract.md`.
 

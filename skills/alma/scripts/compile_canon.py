@@ -9,7 +9,7 @@ Inputs:
 Outputs (no output_dir · Brand System completo · 7 arquivos):
     <slug>-brand.md · <slug>-voice.md · <slug>-design-system.md
     <slug>-inimigos.md · <slug>-publico.md · <slug>-feedback-loops.md
-    <slug>-propagation.md
+    <slug>-propagacao-alma.md
 """
 import argparse
 import sys
@@ -28,7 +28,7 @@ TEMPLATES = {
     "inimigos": "inimigos-render.md",
     "publico": "publico-render.md",
     "feedback-loops": "loops-template.md",
-    "propagation": "propagation-render.md",
+    "propagacao-alma": "propagation-render.md",
 }
 
 

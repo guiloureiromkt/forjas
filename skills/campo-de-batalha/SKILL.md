@@ -11,7 +11,7 @@ description: >
   pra skills ou pessoas executarem). Modos 0.5 e 6 obrigatórios.
 ---
 
-# A Forja do Campo de Batalha (pacote forjas v0.1.0)
+# A Forja do Campo de Batalha
 
 Registro Mentor: a skill se apresenta, conduz por perguntas, fala simples; os modelos analíticos ficam nos bastidores.
 
@@ -65,7 +65,7 @@ Aluno DEVE ter executado **antes** desta skill:
 | 1 | `meu-diagnostico-campos.md` | Auditoria 4-chunks (BEM · ERRADO · GAP · OPORTUNIDADE) dos 7 canais |
 | 2 | `meu-plano-campos.md` | Matriz canon × cadência por canal · Hub-and-Spoke 1-3-5 · 16 peças |
 | 3 | `meu-educacao-campos.md` | 8 sub-teses MCM aplicadas · 6 caminhos canon de destaque |
-| 4 | `meu-propagation.md` | Modo 6 obrigatório · matriz × arquivo destino |
+| 4 | `<marca>-propagacao-campo-de-batalha.md` | Modo 6 obrigatório · matriz × arquivo destino |
 | 5 | **`meu-calendar.md`** | **Dispatcher SPK-001 a SPK-016** (taxonomia 10 campos · pra skills LLM consumirem) |
 
 Os 5 arquivos vão para a pasta `marca/` (`${CLAUDE_PLUGIN_ROOT}/skills/_comum/pasta-marca.md`). São da pessoa: a Forja entrega a arquitetura, a pessoa preenche a substância.
@@ -101,10 +101,10 @@ Os 5 arquivos vão para a pasta `marca/` (`${CLAUDE_PLUGIN_ROOT}/skills/_comum/p
 **Modo 5 · Síntese + Dispatcher (`meu-calendar.md` · 45-60min · HR#15)** — a entrega FINAL. Transformar as 16 peças em backlog SPK-001..016 com **taxonomia 10 campos não-negociável** (ID · semana · canal · formato · framework · origem hub · tese · categoria 7-cat · mix editorial 40-30-20-10 · diretriz de copy · `resposta_desejada` DC34 · skill geradora · `OAMCM_check` · status).
 → **LER `references/dispatcher-spk-taxonomia.md` ANTES de gerar** (template verbatim + mix + stagger + anti-padrão).
 
-**Modo 5.5 · Risk Audit por campanha** — antes de finalizar o Dispatcher: 2-3 riscos específicos + mitigation + matriz Probabilidade × Impacto. Output em `meu-propagation.md` §Risk Audit OU `meu-risks-audit.md`.
+**Modo 5.5 · Risk Audit por campanha** — antes de finalizar o Dispatcher: 2-3 riscos específicos + mitigation + matriz Probabilidade × Impacto. Output em `<marca>-propagacao-campo-de-batalha.md` §Risk Audit OU `meu-risks-audit.md`.
 → **LER `references/risk-audit-pre-launch.md` §Modo 5.5** (6 categorias canon de risco).
 
-**Modo 6 · Propagation Protocol obrigatório (HR#13)** — NUNCA encerrar sem: matriz canon novo × arquivo destino do aluno · lista de skills/peças que absorvem canon novo · 3 cicatrizes documentadas · cross-ref `${CLAUDE_PLUGIN_ROOT}/skills/_comum/propagacao.md`. Output: `meu-propagation.md`.
+**Modo 6 · Propagation Protocol obrigatório (HR#13)** — NUNCA encerrar sem: matriz canon novo × arquivo destino do aluno · lista de skills/peças que absorvem canon novo · 3 cicatrizes documentadas · cross-ref `${CLAUDE_PLUGIN_ROOT}/skills/_comum/propagacao.md`. Output: `<marca>-propagacao-campo-de-batalha.md`.
 
 **Modo 6.5 · Pre-Launch Asset Manifest (CONDICIONAL)** — dispara APENAS com marco data-fixa declarado (always-on pula). Manifest exaustivo de assets fundacionais pré-launch (≠ as 16 tasks SPK). Output: `meu-pre-launch-manifest.md` com must-have/nice-to-have + timeline reversa.
 → **LER `references/risk-audit-pre-launch.md` §Modo 6.5** (categorização + anti-padrões + exemplo real D+90).

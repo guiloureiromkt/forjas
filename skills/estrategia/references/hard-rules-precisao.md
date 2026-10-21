@@ -111,7 +111,7 @@ Se QUALQUER check falhar · NÃO emitir o Chunk até corrigir.
 
 ## Hard Rule #5 (novo · 2026-05-20) · Pesquisa Externa antes do Diagnóstico
 
-Feedback Gui: "faltou pesquisa, faltou questionar se o que eu estava direcionando era ruim, ou eu posso ser só bom mesmo. Essa skill se beneficiaria demais de uma deep research de base."
+Feedback do autor, depois de um teste: "faltou pesquisa, faltou questionar se o que eu estava direcionando era ruim, ou eu posso ser só bom mesmo. Essa skill se beneficiaria demais de uma deep research de base."
 
 Adicionar **Modo 1.5 · Pesquisa Externa** entre Entrevista e Diagnóstico. Ver `SKILL.md §Modo 1.5`.
 
@@ -152,7 +152,7 @@ Se algum check falhar · refatorar antes de enviar.
 
 ## Hard Rule #6 · Ponta final obrigatória (V1.4)
 
-Todo canal de captura descrito no forja-plano.md deve nomear o produto destino específico (Tomo / Arcano / Mentoria B2B · nunca genérico "conteúdo" ou "lead"). Ação sem destino concreto é retirada do plano antes de salvar.
+Todo canal de captura descrito no forja-plano.md deve nomear o produto destino específico (por exemplo: o e-book X, a mentoria Y, a consultoria Z · nunca genérico "conteúdo" ou "lead"). Ação sem destino concreto é retirada do plano antes de salvar.
 
 ## Hard Rule #7 · Siglas explicadas na 1ª aparição (V1.4)
 

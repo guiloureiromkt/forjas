@@ -118,7 +118,7 @@
 
 ---
 
-## Pergunta 11.5 · O Interlocutor Principal (adicionada 2026-05-20 · feedback Gui)
+## Pergunta 11.5 · O Interlocutor Principal (adicionada 2026-05-20 · feedback do autor)
 
 **Pergunte:** "Quando você tem que VENDER alguma coisa nova internamente — uma ferramenta · uma mudança de estratégia · um corte de canal — quem é o INTERLOCUTOR PRINCIPAL que você precisa convencer? Não me diga 'a diretoria'. Me diga em 1-2 frases: nome ou função · idade aproximada · perfil (técnico · político · cético · entusiasta) · qual a referência intelectual dele (lê o que · escuta o que · admira quem). Se houver 2 interlocutores · me dá os 2."
 

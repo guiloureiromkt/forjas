@@ -20,7 +20,7 @@ Antes de finalizar Etapa 5 Dispatcher, executar Risk Audit do plano:
 5. **Risco de algoritmo** — link no corpo/1º comentário (DC54) · cadência insustentável >4h/sem · sameness penalty (3 posts/dia IA)
 6. **Risco exógeno macro** — Meta WhatsApp Channels regra (DC41 portabilidade Telegram) · LLM citation favorites mudando (DC50 GEO/AEO janela 12-18m)
 
-Output integrado em `meu-propagation.md` (seção "Risk Audit") OU arquivo separado `meu-risks-audit.md` (decisão do aluno).
+Output integrado em `<marca>-propagacao-campo-de-batalha.md` (seção "Risk Audit") OU arquivo separado `meu-risks-audit.md` (decisão do aluno).
 
 ---
 

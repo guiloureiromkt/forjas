@@ -548,7 +548,7 @@ Tese válida deve ter:
 - **1+ tensão** (oposição · pivô · ruptura)
 
 **Exemplos canônicos válidos:**
-- "Transformo branding estático em sistema de marca inteligente" (Gui Loureiro, autor das Forjas)
+- "Faço pão de fermentação natural para quem desistiu do pão de mercado" (exemplo inventado de uma padaria)
 - "Vet bom é antropólogo · não técnico · porque pet é espelho do dono" (exemplo de uma veterinária)
 - "Marca não é manual · é motor que roda sem você" (versão Forja)
 
@@ -585,11 +585,11 @@ Após tese aprovada · skill pergunta:
 > 2. **Poética** · metáfora ou imagem que sintetiza o trabalho
 > 3. **Contraintuitiva** · começa com "não" ou "contra" · derruba crença comum
 
-### Exemplos (do autor das Forjas · pra inspiração · NÃO copiar)
+### Exemplos (inventados · pra inspiração · NÃO copiar)
 
-**Direta:** "Transformo branding estático em sistema de marca inteligente"
-**Poética:** "Construtor de bio-engrenagens simbióticas"
-**Contraintuitiva:** "Quem tem manual de marca · não tem marca"
+**Direta:** "Faço pão de fermentação natural para quem desistiu do pão de mercado"
+**Poética:** "Guardiã do tempo lento da massa"
+**Contraintuitiva:** "Pão bom não se compra com pressa"
 
 ### Aprofundamento
 

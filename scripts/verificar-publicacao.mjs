@@ -37,6 +37,8 @@ const REGRAS = [
     diz: "isso tem cara de credencial de verdade" },
   { id: "uuid", sev: "bloqueia", re: /\b[0-9a-f]{8}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{12}\b/gi,
     diz: "identificador de algo privado (caderno, documento, conta)" },
+  { id: "resto-de-script", sev: "bloqueia", re: /'\+\s*\w+\s*\+'|\$\{(?!CLAUDE_PLUGIN_ROOT\})[A-Z_]+\}|<<'EOF'/g,
+    diz: "resto de script de edição no texto (concatenação ou variável desconhecida): a skill vai ler um caminho que não existe" },
   { id: "dinheiro", sev: "confere", re: /R\$\s?\d[\d.,]*/g,
     diz: "valor em reais: exemplo do método está bem; preço de quem escreveu, não" },
   { id: "email", sev: "confere", re: /\b[a-z0-9._%+-]+@(?!exemplo|example|seu|suamarca|meusite)[a-z0-9.-]+\.[a-z]{2,}\b/gi,

@@ -21,7 +21,7 @@ Além dos arquivos próprios, toda Forja grava `marca/<marca>-propagacao-<forja>
 
 ```markdown
 # <Forja> · <marca> · propagação
-Data: AAAA-MM-DD · Forjas v0.1.0
+Data: AAAA-MM-DD · Forjas v<a versão dita na abertura>
 
 ## 1. Descobertas
 D1, D2, … cada uma com: o conteúdo (1-2 frases) · de onde veio (pergunta, material, inferência) · se é nova, se estende algo ou se contradiz algo (e, se contradiz, o quê e onde).

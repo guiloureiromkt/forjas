@@ -122,7 +122,7 @@ Mostrar em 1 tela: diagnóstico em 5 linhas · a tese do plano em 1 frase · os 
 
 NUNCA encerrar sem: (1) confirmação dos arquivos salvos (paths reais) · (2) **3 movimentos HOJE** · (3) mapa CANAL → executor: para cada canal, quem ou o que produz (uma pessoa do time, uma ferramenta, ou uma skill de conteúdo que a pessoa tenha instalada) · (4) a ponte honesta: o que a Expressa NÃO cobriu e qual Forja completa cobre (educativo pro time → Estratégia · propagação profunda 7 canais → Campo de Batalha · identidade/voz → Alma).
 
-**Fechar o Master Brief e propagar:** escrever o resumo do plano na §5.5 e a arquitetura de canais na §5.6, marcando "via Expressa" e seguindo `'+R+'_comum/master-brief.md`; atualizar §0, §6, §8 e §9 (com o comando da próxima Forja, se houver). Depois, a propagação de `'+R+'_comum/propagacao.md`, em versão curta: as descobertas, onde precisam chegar e o que fica pendente.
+**Fechar o Master Brief e propagar:** escrever o resumo do plano na §5.5 e a arquitetura de canais na §5.6, marcando "via Expressa" e seguindo `${CLAUDE_PLUGIN_ROOT}/skills/_comum/master-brief.md`; atualizar §0, §6, §8 e §9 (com o comando da próxima Forja, se houver). Depois, a propagação de `${CLAUDE_PLUGIN_ROOT}/skills/_comum/propagacao.md`, em versão curta: as descobertas, onde precisam chegar e o que fica pendente.
 
 ---
 

@@ -10,7 +10,7 @@
 | 4 | `<marca>-inimigos.md` | 3 inimigos nomeados · renegado (público) · posicionamento competitivo | linkedin · blog (copy externa) | Estação 6 🆕 standalone |
 | 5 | `<marca>-publico.md` | ICP · demografia · dores · medos · tensões · jornada · códigos | todas (segmentação) | Master Brief §5.3 🆕 |
 | 6 | `<marca>-feedback-loops.md` | sistema vivo · gatilhos · o que alimentar pós-publicação | trackers | Estação evolutiva |
-| 7 | `<marca>-propagation.md` | matriz descoberta × destino · plano P0-P3 (genérico) | meta | Estação 12 |
+| 7 | `<marca>-propagacao-alma.md` | matriz descoberta × destino · plano P0-P3 (genérico) | meta | Estação 12 |
 
 ## Regras do contrato
 - **Cada arquivo é standalone** (a skill que precisa de voz lê só `voice.md`; quem precisa de visual lê só `design-system.md`).

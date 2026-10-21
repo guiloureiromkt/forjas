@@ -8,7 +8,7 @@
 
 **Pré-requisito:** a Estação 11 (Validador anti-Slop) aprovou os 7 arquivos.
 
-## 12.1 · Gerar `marca/<marca>-propagation.md`
+## 12.1 · Gerar `marca/<marca>-propagacao-alma.md`
 
 Conteúdo obrigatório:
 1. **Descobertas desta Forja** (D1-Dn · cada uma com conteúdo + origem + tipo + o que contradiz, se contradiz)
@@ -27,7 +27,7 @@ Aplique P0 e P1 nos destinos que estão dentro da pasta aberta, um de cada vez, 
 
 ## 12.4 · Se "depois" · registrar pendência
 
-1. Gravar `marca/<marca>-propagation.md` com o checklist intacto
+1. Gravar `marca/<marca>-propagacao-alma.md` com o checklist intacto
 2. Acrescentar na §6 do Master Brief uma linha apontando para ele
 3. **NÃO** marcar a Forja da Alma como completa até a propagação acontecer
 

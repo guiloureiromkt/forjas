@@ -3,7 +3,7 @@
 > **Fonte:** caderno do NotebookLM com o Índice Estratégico de Comunicação Integrada, consolidado pelo próprio caderno (privado do autor; o conteúdo útil está todo neste arquivo).
 > **Capturado em:** 2026-05-18 · sessão CANON via skill `notebooklm`
 > **Disciplina:** Comunicação Integrada
-> **Objetivo:** absorver material de referência pra alimentar canon editorial Gui Loureiro categoria Comunicação Integrada
+> **Objetivo:** absorver material de referência sobre Comunicação Integrada, usado no Modo 2 da Forja da Estratégia
 
 ## Fontes do notebook (5)
 1. **Fronteiras da Comunicação Integrada Atual**

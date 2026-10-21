@@ -203,10 +203,10 @@ Banco reunido de um roteiro biográfico (4 fases) + um briefing guiado de negóc
 - **Poético:** metáfora ou imagem que sintetiza o trabalho
 - **Contraintuitivo:** começa com "não [coisa óbvia]" ou "contra [crença comum]"
 
-**Exemplos (do autor das Forjas · pra referência · NÃO copiar):**
-- Direto: "Transformo branding estático em sistema de marca inteligente"
-- Poético: "Construtor de bio-engrenagens simbióticas"
-- Contraintuitivo: "Quem tem manual de marca não tem marca"
+**Exemplos (inventados · pra referência · NÃO copiar):**
+- Direto: "Faço pão de fermentação natural para quem desistiu do pão de mercado"
+- Poético: "Guardiã do tempo lento da massa"
+- Contraintuitivo: "Pão bom não se compra com pressa"
 
 ---
 
