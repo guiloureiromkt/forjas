@@ -1,0 +1,15 @@
+{
+  "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
+  "name": "forjas",
+  "description": "As Forjas do Gui Loureiro: skills de Claude Code, em português, que conduzem marca, estratégia e canais por perguntas.",
+  "owner": { "name": "Gui Loureiro", "url": "https://guiloureiro.com.br" },
+  "plugins": [
+    {
+      "name": "forjas",
+      "description": "Alma (a marca e a voz), Estratégia (o que fazer), Campo de Batalha (como, canal por canal) e Expressa (plano rápido a partir do material que já existe). Guardam o resultado na pasta marca/ e no Master Brief do Cycle.",
+      "author": { "name": "Gui Loureiro" },
+      "source": "./",
+      "category": "productivity"
+    }
+  ]
+}
