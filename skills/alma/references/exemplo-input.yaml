@@ -1,0 +1,222 @@
+# Exemplo INVENTADO de entrada da Estação 10 (formato que compile_canon.py lê). Nada aqui é uma pessoa real.
+aluno:
+  nome: Dra. Lia Moraes
+  nome_curto: Lia
+  nome_curto_slug: lia
+  persona: Creator
+  persona_descricao: veterinária autônoma 38 anos · Curitiba
+  frase_sintese: Vet de cabeça antropológica · não de receita pronta
+  tagline: Vet de cabeça antropológica
+  identidade_paragrafo: |
+    Lia é vet autônoma com 8 anos de carreira · Curitiba · clínica própria desde 2022.
+    Atende ~120 pets/mês · público classe média-alta · ticket médio R$280/consulta.
+    Constrói marca pessoal antropológica: vê pet como espelho do tutor · não como caso clínico isolado.
+  audiencia_primaria: tutores classe média-alta Curitiba 32-50 anos · com pet adulto/idoso
+  tese_central: |
+    Vet bom é antropólogo · não técnico · porque pet é espelho emocional do dono.
+  inimigos:
+    - nome: Dr. Exemplo
+      tipo: guru veterinário
+      razao: vende protocolo único pra todos os casos · 50k seguidores · ignora contexto
+    - nome: Rede de pet shop Exemplo
+      tipo: marca corporativa
+      razao: pratica venda casada de ração premium com consulta gratuita · diluindo categoria
+    - nome: "tendência 'pet pai/pet mãe'"
+      tipo: comportamento de mercado
+      razao: infantiliza o tutor · esconde a responsabilidade real
+  principios:
+    - titulo: Diagnóstico antes de protocolo
+      descricao: Nunca prescrevo sem 30 min de história do tutor · mesmo se ele só quer "vacina rápida"
+    - titulo: Honestidade radical sobre limites
+      descricao: Digo "não sei · vamos encaminhar pro especialista X" sem ego · 12 encaminhamentos/mês em média
+    - titulo: Sem venda casada de ração ou suplemento
+      descricao: Indico marca · mas nunca vendo · cliente compra onde quiser · zero comissão
+    - titulo: Respeito à dor do tutor
+      descricao: Nunca digo "é só um cachorro" · trato luto antecipatório com mesma seriedade que pediatra
+    - titulo: Preço por escrito antes do procedimento
+      descricao: Orçamento por escrito antes de qualquer procedimento · zero "surpresa na hora de pagar"
+  territorios:
+    - nome: Cultura e Ciclos
+      frequencia_relativa: 50
+      descricao: Antropologia da relação humano-pet · ciclos de luto · mudança de comportamento do tutor
+    - nome: Sistemas de Marca
+      frequencia_relativa: 30
+      descricao: Construção de clínica como sistema · protocolos · onboarding de novo tutor
+    - nome: Experiência e Ativação
+      frequencia_relativa: 20
+      descricao: Experiência da consulta · ambiente · ritual de despedida em casos terminais
+  publico:
+    primario: tutores classe média-alta Curitiba 32-50 anos · pet adulto/idoso · valoriza ciência
+    secundario: jovens vets recém-formados que querem montar clínica autoral
+    nao_atende: tutor que quer "vet barata" · que considera pet "objeto"
+  capacidades:
+    - titulo: Consulta antropológica
+      pov: Toda doença do pet começa no comportamento do tutor
+      skill: Anamnese estendida 30 min · cruzamento de rotina do tutor com sintoma do pet
+      produtizavel: Protocolo Lia · curso pra vets sobre consulta antropológica · R$390
+    - titulo: Despedida ritualizada
+      pov: Eutanásia é momento sagrado · vet tem responsabilidade espiritual
+      skill: Ritual de despedida em casa · 90 min · acompanhamento do luto
+      produtizavel: Serviço "Última Sessão" · R$1.200 com agenda fechada
+  decisoes:
+    sempre:
+      - Responder DM dos tutores em até 24h (sábado/domingo · só urgência)
+      - Cobrar consulta cheia mesmo de amigo/família (regra anti-bagunça)
+      - Encaminhar ao especialista se sintoma sai do meu escopo · sem ego
+      - Tirar 1 dia/mês pra estudar antropologia (não veterinária)
+      - Publicar 1 post no IG/sem por semana com case real (consentimento do tutor)
+    nunca:
+      - Aceitar permuta (consulta por ração de marca · etc) · paga em dinheiro ou não vem
+      - Atender em casa "rapidinho" sem registro · tudo passa pela clínica
+      - Vender curso de "vet empreendedor" / "como bombar IG" · não é meu território
+      - Postar foto de pet sem rosto pra "diversão" · ele não consentiu
+      - Indicar plano de saúde pet específico · falo dos prós/contras dos 3 que conheço
+  repertorio:
+    - titulo: A Sociedade do Cansaço
+      tipo: livro
+      ano: 2015
+      autor: Byung-Chul Han
+      por_que_te_formou: Entendi que dono trata pet como ele trata a si mesmo · esgotamento se transfere
+    - titulo: Animals Make Us Human
+      tipo: livro
+      ano: 2009
+      autor: Temple Grandin
+      por_que_te_formou: Comportamento animal lido como sintoma de ambiente humano · base da consulta antropológica
+    - titulo: O Toque
+      tipo: livro
+      ano: 1971
+      autor: Ashley Montagu
+      por_que_te_formou: Importância do contato físico · aplico em pet de idoso terminal
+    - titulo: When We Were Young
+      tipo: documentário
+      ano: 2019
+      autor: Netflix
+      por_que_te_formou: Cenas de despedida com humanos · usei como referência pra meu protocolo de eutanásia em casa
+    - titulo: Bach Cellos Suite n.1
+      tipo: música
+      ano: 1717
+      autor: J.S. Bach
+      por_que_te_formou: Ouço antes de cada eutanásia · ritual pessoal · cliente nunca sabe
+    - titulo: Tio Saulo (pediatra de família)
+      tipo: pessoa real
+      ano: 1953
+      autor: ""
+      por_que_te_formou: Atendia em consultório com cama · conversa de 1h · vi como criança o que queria ser
+    - titulo: Curitiba Centro nos anos 90
+      tipo: lugar
+      ano: 1990
+      autor: ""
+      por_que_te_formou: Cresci na Avenida Augusto · vi a cidade mudar · pet entrou na vida da classe média de uma forma específica
+    - titulo: Tango argentino
+      tipo: hobby
+      ano: 2018
+      autor: ""
+      por_que_te_formou: Aprendi a ler corpo do outro sem palavras · uso em anamnese
+    - titulo: Antropologia do Cuidado (curso UFMG)
+      tipo: conceito acadêmico
+      ano: 2017
+      autor: ""
+      por_que_te_formou: Cuidado como dom · economia da reciprocidade · base ética da minha clínica
+    - titulo: BR's Got Soul (podcast)
+      tipo: podcast
+      ano: 2023
+      autor: vários
+      por_que_te_formou: Antropologia BR contemporânea · entendi mudança de classe média
+  voz:
+    tom_dominante: Sábio (70%) + Cuidador (30%)
+    tom_dominante_long: |
+      Tom de médico de família dos anos 80 traduzido pra 2026 · conversa direta sem jargão técnico ·
+      respeito ao tutor como adulto · sem infantilização ("pet mãe") · sem alarmismo ·
+      sem prometer milagre. Concretude · dado quando relevante · referência cultural quando ilumina.
+    marcadores:
+      - frase: "Não é o pet que tá doente · é o dono"
+        funcao: Corte antropológico · derruba premissa do tutor
+        quando: Antes de prescrever em caso recorrente
+        exemplo: "Não é o Tobi que tá com ansiedade · é você que mudou de emprego. Vamos olhar isso juntos."
+      - frase: "Não sei · vamos descobrir"
+        funcao: Honestidade radical · derruba expectativa de vet onisciente
+        quando: Quando caso sai do escopo
+        exemplo: "Não sei o que tá rolando · vou pesquisar até amanhã e te ligo. Se não conseguir · te encaminho."
+      - frase: "Vamos com calma"
+        funcao: Sinaliza pausa · derruba pressa do tutor
+        quando: Quando tutor entra apavorado
+        exemplo: "Vamos com calma. Senta · me conta o que aconteceu nas últimas 48h. Sem pular nada."
+    zona_proibida:
+      palavras:
+        - amigão
+        - pet pai
+        - pet mãe
+        - tutor 5 estrelas
+        - peludinho
+        - dog mom
+        - cat dad
+        - cliente vip
+      construcoes:
+        - padrao: "Como dizia minha avó..."
+          alternativa: vinheta própria · não copiar do Gui
+        - padrao: "Você precisa..."
+          alternativa: '"O Tobi precisa..." (deslocar do tutor pro pet)'
+      cacoetes_ia:
+        - empoderar
+        - diferenciado
+        - incrível
+        - transformador
+        - potencializar
+    vocabulario_hub:
+      - palavra: anamnese antropológica
+        significado: consulta de 30+ min que mapeia rotina do tutor antes do pet
+        nao_confundir: anamnese clínica tradicional (10 min · só sintomas)
+      - palavra: ritual de despedida
+        significado: protocolo de eutanásia em casa com 90 min · acompanhamento de luto
+        nao_confundir: eutanásia rápida em clínica
+      - palavra: tutor
+        significado: pessoa responsável legalmente pelo pet · adulto · consciente
+        nao_confundir: 'pet pai/mãe · dono'
+      - palavra: encaminhamento sem ego
+        significado: passar caso pra especialista sem cobrar consulta nova de retorno
+        nao_confundir: indicação (que muitas vezes vem com comissão escondida)
+      - palavra: orçamento por escrito
+        significado: documento assinado antes do procedimento · zero surpresa
+        nao_confundir: estimativa verbal
+    arquetipos:
+      - nome: Sábio
+        percentual: 70
+        aplicacao: Posicionamento técnico-cultural · base do diferencial
+      - nome: Cuidador
+        percentual: 30
+        aplicacao: Tom em conteúdo emocional (eutanásia · luto · doença crônica)
+    assinatura_padrao: "Dra. Lia Moraes · CRMV-XX 00000 · @drliavet"
+  tese_desdobramentos:
+    - "Sintoma do pet é informação sobre o tutor · não só sobre o animal"
+    - "Vet que não escuta tutor por 30 min está fazendo manutenção · não medicina"
+    - "Preço alto da consulta sustentável é ética · não ganância · vet barata gera vet ruim"
+  loops_sugeridos:
+    - numero: 1
+      nome: Feedback de tutor pós-consulta
+      tipo: Documento canônico vivo
+      gatilho: 48h após cada consulta
+      output_file: lia-feedback-consultas.md
+      consumido_por: Próximas consultas com mesmo tipo de caso
+      prioridade: alta
+      alimenta: voz · princípios · capacidades
+    - numero: 2
+      nome: Calibração de voz pós-IG
+      tipo: Feedback consolidado
+      gatilho: Cada post publicado no IG
+      output_file: lia-feedback-voz-ig.md
+      consumido_por: Próximos posts
+      prioridade: alta
+      alimenta: voz · territórios
+  glossario:
+    - termo: anamnese antropológica
+      significado: consulta estendida 30+ min · mapeia rotina do tutor antes do pet · canônico
+    - termo: ritual de despedida
+      significado: protocolo Lia de eutanásia em casa · 90 min
+    - termo: tutor
+      significado: termo canônico · NUNCA "pet pai/mãe"
+
+session:
+  data: "2026-05-14"
+  duracao_total_min: 180
+  versao_skill: "1.0.0"
+  validador_status: "pass"
